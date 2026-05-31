@@ -1,0 +1,81 @@
+.contact-section {
+  position: relative;
+  background-image: url("../../assets/contact-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 140px 8%;
+  text-align: center;
+  color: white;
+}
+
+.contact-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+}
+
+.contact-content {
+  position: relative;
+  max-width: 750px;
+  margin: auto;
+}
+
+.contact-label {
+  color: #c9a227;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.contact-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  color: #d3d3d3;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+   border-radius: 7px;
+}
+
+.primary-contact {
+  background: #c9a227;
+  color: black;
+}
+
+.primary-contact:hover {
+  background: #e0b93c;
+}
+
+.secondary-contact {
+  border: 1px solid #c9a227;
+  color: white;
+}
+
+.secondary-contact:hover {
+  background: #c9a227;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .contact-content h2 {
+    font-size: 40px;
+  }
+}

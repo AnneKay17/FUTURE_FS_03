@@ -1,0 +1,116 @@
+.hero {
+  height: 100vh;
+  background-image: url("../../assets/crown2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding-top: 34px;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.58);
+}
+
+.hero-content {
+  position: relative;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #d6d6d6;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primary-btn,
+.secondary-btn {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.primary-btn {
+  background: #c9a227;
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  border-radius: 7px;
+}
+
+.primary-btn:hover {
+  background: #e0b93c;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid #c9a227;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 7px;
+
+}
+
+.secondary-btn:hover {
+  background: #c9a227;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 100vh;
+    padding: 140px 6% 80px;
+    background-position: 52% center;
+  }
+
+  .hero-content {
+    margin-top: 40px;
+  }
+  .hero h1 {
+  font-size: 36px;
+  line-height: 1.15;
+}
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 220px;
+    text-align: center;
+  }
+}
