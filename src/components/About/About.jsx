@@ -24,7 +24,7 @@ const About = () => {
         <div className="about-content">
           <p className="about-label">About Eternitee</p>
 
-          <h2>Crafting Jewelry That Lasts Beyond Trends</h2>
+          <h2>Crafting Jewellery That Lasts Beyond Trends</h2>
 
           <p className="about-text">
             Eternitee Jewels is built on a passion for craftsmanship, elegance,
@@ -60,7 +60,7 @@ const About = () => {
 
           <p>
             Beyond creating beautiful pieces, Eternitee Jewels reflects a journey
-            of skill, creativity, and dedication within the jewelry industry.
+            of skill, creativity, and dedication within the jewellery industry.
           </p>
         </div>
 

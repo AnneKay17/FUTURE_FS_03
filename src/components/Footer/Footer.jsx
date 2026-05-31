@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-brand">
           <h2>Eternitee Jewels</h2>
           <p>
-            Handcrafted jewelry designed with elegance, individuality,
+            Handcrafted jewellery designed with elegance, individuality,
             and timeless beauty.
           </p>
         </div>
