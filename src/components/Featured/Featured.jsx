@@ -1,10 +1,10 @@
 import './Featured.css';
 
 
-import necklace from "../../assets/necklace/jewlprod.png";
+import necklace from "../../assets/necklace/jewlprod.webp";
 
-import custom from "../../assets/pendant/custom.png";
-import ring from "../../assets/rings/ring.png"
+import custom from "../../assets/pendant/custom.webp";
+import ring from "../../assets/rings/ring.webp"
 
 
 const Featured = () => {

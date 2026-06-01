@@ -1,7 +1,7 @@
 import "./About.css";
-import work from "../../assets/work.png";
-import himWorking from "../../assets/him-working.png";
-import award from "../../assets/award.png";
+import work from "../../assets/work.webp";
+import himWorking from "../../assets/him-working.webp";
+import award from "../../assets/award.webp";
 
 const About = () => {
   return (
