@@ -17,7 +17,7 @@ const Contact = () => {
 
         <div className="contact-buttons">
           <a
-            href="https://wa.me/27790593272"
+            href="https://wa.me/27660399855"
             target="_blank"
             rel="noreferrer"
             className="contact-btn primary-contact"
