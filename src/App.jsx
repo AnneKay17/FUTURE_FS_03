@@ -7,6 +7,8 @@ import Footer from './components/Footer/Footer'
 import Gallery from './components/Gallery/Gallery'
 import Home from './components/Home/Home'
 import Navbar from './components/Navbar/Navbar'
+import BehindCraft from './components/BehindCraft/BehindCraft'
+import Recognition from './components/Recognition/Recognition'
 
 
 function App() {
@@ -23,6 +25,14 @@ function App() {
 
       <Reveal>
         <About />
+      </Reveal>
+
+      <Reveal>
+        <BehindCraft/>
+      </Reveal>
+
+      <Reveal>
+        <Recognition/>
       </Reveal>
 
       <Reveal>

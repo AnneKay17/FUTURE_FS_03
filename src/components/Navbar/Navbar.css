@@ -141,29 +141,33 @@
 /* MOBILE */
 @media (max-width: 768px) {
   .navbar {
-    padding: 18px 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
+    padding: 14px 5%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  .logo {
+    justify-self: start;
   }
 
   .logo h2 {
     font-size: 22px;
+    margin: 0;
   }
 
   .nav-links {
-    gap: 18px;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: none;
   }
 
-  .nav-links a,
+  .contact-link {
+    justify-self: end;
+  }
+
   .contact-link a {
     font-size: 13px;
-  }
-
-  .contact-link a {
-    padding: 8px 18px;
+    padding: 8px 16px;
+    border-radius: 9px;
   }
 
   .top-strip p {

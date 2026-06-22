@@ -1,7 +1,6 @@
 import "./About.css";
 import work from "../../assets/work.webp";
 import himWorking from "../../assets/him-working.webp";
-import award from "../../assets/award.webp";
 
 const About = () => {
   return (
@@ -49,23 +48,6 @@ const About = () => {
           >
             Explore More
           </button>
-        </div>
-      </section>
-
-      <section className="recognition-section">
-        <div className="recognition-content">
-          <p className="about-label">Recognition</p>
-
-          <h2>Recognized for Craftsmanship</h2>
-
-          <p>
-            Beyond creating beautiful pieces, Eternitee Jewels reflects a journey
-            of skill, creativity, and dedication within the jewellery industry.
-          </p>
-        </div>
-
-        <div className="recognition-image">
-          <img src={award} alt="Eternitee Jewels recognition moment" />
         </div>
       </section>
     </>

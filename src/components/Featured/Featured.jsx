@@ -3,7 +3,7 @@ import './Featured.css';
 
 import necklace from "../../assets/necklace/jewlprod.webp";
 
-import custom from "../../assets/pendant/custom.webp";
+import custom from "../../assets/pendant/pendant3.webp";
 import ring from "../../assets/rings/ring.webp"
 
 
