@@ -26,7 +26,7 @@ const Footer = () => {
           <h3>Connect</h3>
 
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/eternitee_jewels/#"
             target="_blank"
             rel="noreferrer"
           >
@@ -34,7 +34,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://wa.me/27700000000"
+            href="https://wa.me/27660399855"
             target="_blank"
             rel="noreferrer"
           >

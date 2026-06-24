@@ -1,7 +1,7 @@
 import './BehindCraft.css'
 import craft1 from "../../assets/craft1.jpeg"
 import craft2 from "../../assets/craft2.jpeg"
-import craft3 from "../../assets/craft3.jpeg"
+import craft3 from "../../assets/result.jpeg"
 
 const BehindCraft = () => {
     return (  

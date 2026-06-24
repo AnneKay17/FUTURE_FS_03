@@ -138,7 +138,7 @@ import cus20 from "../../assets/pendant/pendant21.webp"
 
 
 //DESINGER SELECTION
-import signatureCover from "../../assets/pendant/pendant3.webp"
+import signatureCover from "../../assets/pendant/custom.webp"
 import des1 from "../../assets/bracelets/brace5.webp"
 import des2 from "../../assets/necklace/jewlprod.webp"
 import des3 from "../../assets/rings/ring7.webp"
