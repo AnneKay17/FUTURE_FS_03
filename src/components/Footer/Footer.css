@@ -65,10 +65,9 @@
   font-size: 14px;
 }
 
-.footer-bottom span {
+.footer-bottom a {
   color: #c9a227;
-  font-size: 13px;
-  letter-spacing: 1px;
+  text-decoration: none;
 }
 
 /* MOBILE */

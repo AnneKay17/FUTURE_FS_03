@@ -48,9 +48,15 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>
-  © 2026 Eternitee Jewels. All rights reserved. <br />
-  <span>Website designed & developed by Karabo</span>
-</p>
+          © 2026 Eternitee Jewels. All rights reserved. <br />
+          Website designed & developed by 
+          <a
+            href="https://linkedin.com/in/karabo-makhubela-0bbb5b387"
+            target="_blank"
+            rel="noopener noreferrer"
+            > Karabo Makhubela
+          </a>
+        </p>
       </div>
     </footer>
   );
